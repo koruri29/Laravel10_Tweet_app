@@ -1,1 +1,1 @@
-web: heroku-php-apache2 /public/tweet
+web: heroku-php-apache2 /public/tweet/index
