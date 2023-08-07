@@ -11,7 +11,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="header-left">
-				<img src="{{secure_asset('storage/tubuyaki.png')}}" alt="つぶやき">
+				<img src="https://laravel-sample-tweet-app-ec9bf8738663.herokuapp.com/tubuyaki.png" alt="つぶやき">
 			</div>
 			<div class="header-right">
 				<form action="{{route('logout')}}" method="post">
