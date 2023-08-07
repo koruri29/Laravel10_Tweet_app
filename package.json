@@ -2,7 +2,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vite",
+        "dev": "concurrently 'vite' 'nodemon --es-module-specifier-resolution=node server.mjs'",
+        "heroku-postbuild": "tsc && vite build",
         "prod": "vite",
         "build": "vite build",
         "postinstall": "npm run prod"
