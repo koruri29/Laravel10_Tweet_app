@@ -13,6 +13,6 @@ export default defineConfig({
         }),
     ],
     server:{
-        host:'herokuapp.com'
+        host:'laravel-sample-tweet-app-ec9bf8738663.herokuapp.com'
     },
 });
